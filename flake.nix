@@ -9,6 +9,7 @@
         buildInputs = with pkgs; [
           cbqn
           just
+          nodePackages.nodemon
         ];
         nativeBuildInputs = [ clang ];
 
